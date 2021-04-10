@@ -1,0 +1,194 @@
+/*
+Name : Style.css Portofolio
+Author : Fikri Maulana
+Date : 7 April 2021
+*/
+body {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+/* content */
+.custom-content {
+    padding-bottom: 5px;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+   
+}
+.custom-content .card {
+    margin-top: -3px;
+    justify-content: center;
+    border: 3px solid black;
+    background-color: #f1f0f0;
+    box-shadow: 7px 7px 0px 1px rgb(20, 20, 20);
+}
+.custom-content .right {
+    display: flex;
+    justify-content: flex-end;
+}
+.custom-content .right p {
+    font-family: 'Comfortaa', cursive;
+    background-color: #df548e;
+    padding: 5px 20px;
+    border: 3px solid black;
+    border-radius: 3px;
+    box-shadow: 7px 7px 0px 1px rgb(20, 20, 20);
+    margin-bottom: -1px;
+}
+
+/* footer */
+.custom-footer {
+    padding-top: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* button */
+.btn-blue {
+    background-color: #3cc4ce;
+    padding: 10px 30px;
+    border: 2px solid black;
+    margin: 0px 10px;
+    color: black;
+    border-radius: 5px;
+    /* bs: left top ambyar */
+    box-shadow: 2px 4px 0px 1px rgb(20 20 20);
+}
+.btn-orange {
+    background-color: #e6b448;
+    padding: 10px 30px;
+    border: 2px solid black;
+    margin: 0px 10px;
+    color: black;
+    border-radius: 5px;
+    /* bs: left top ambyar */
+    box-shadow: 2px 4px 0px 1px rgb(20 20 20);
+}
+
+.btn-pink {
+    background-color: #df548e;
+    padding: 10px 30px;
+    border: 2px solid black;
+    margin: 0px 10px;
+    color: black;
+    border-radius: 5px;
+    /* bs: left top ambyar */
+    box-shadow: 2px 4px 0px 1px rgb(20 20 20);
+}
+
+.btn-white {
+    background-color: #f1f0f0;
+    padding: 10px 30px;
+    border: 2px solid black;
+    margin: 0px 10px;
+    color: black;
+    border-radius: 5px;
+    /* bs: left top ambyar */
+    box-shadow: 2px 4px 0px 1px rgb(20 20 20);
+}
+
+
+/* button hover */
+.btn-blue:hover {
+    color: black;
+    margin-top: 3px;
+    margin-bottom: -3px;
+    box-shadow: 2px 3px 0px 1px rgb(20, 20, 20);
+}
+.btn-orange:hover {
+    color: black;
+    margin-top: 3px;
+    margin-bottom: -3px;
+    box-shadow: 2px 3px 0px 1px rgb(20, 20, 20);
+}
+.btn-pink:hover {
+    color: black;
+    margin-top: 3px;
+    margin-bottom: -3px;
+    box-shadow: 2px 3px 0px 1px rgb(20, 20, 20);
+}
+.btn-white:hover {
+    color: black;
+    margin-top: 3px;
+    margin-bottom: -3px;
+    box-shadow: 2px 3px 0px 1px rgb(20, 20, 20);
+}
+
+/* */
+.card .img-about {
+    background-image: url('../img/kofi.png');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+/* Cursor */
+.typed-cursor {
+}
+
+/* If fade out option is set */
+.typed-fade-out {
+}
+
+.animated {
+    background-image: url(/css/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top:95px;
+    margin-bottom:60px;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s; 
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+ 
+ @-webkit-keyframes lightSpeedIn {
+    0% { 
+       -webkit-transform: translateX(100%) skewX(-30deg); 
+       opacity: 0; 
+    }
+    60% { 
+       -webkit-transform: translateX(-20%) skewX(30deg); 
+       opacity: 1; 
+    }
+    80% { 
+       -webkit-transform: translateX(0%) skewX(-15deg); 
+       opacity: 1; 
+    }
+    100% { 
+       -webkit-transform: translateX(0%) skewX(0deg); 
+       opacity: 1; 
+    }
+ }
+ 
+ @keyframes lightSpeedIn {
+    0% { 
+       transform: translateX(100%) skewX(-30deg); 
+       opacity: 0; 
+    }
+    60% { 
+       transform: translateX(-20%) skewX(30deg); 
+       opacity: 1; 
+    }
+    80% { 
+       transform: translateX(0%) skewX(-15deg); 
+       opacity: 1; 
+    }
+    100% { 
+       transform: translateX(0%) skewX(0deg); 
+       opacity: 1;
+    }
+ }
+ .lightSpeedIn {
+    -webkit-animation-name: lightSpeedIn;
+    animation-name: lightSpeedIn; 
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+ }
+ 
+ .animated.lightSpeedIn {
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+ }
