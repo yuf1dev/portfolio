@@ -40,7 +40,7 @@ body {
 /* footer */
 .custom-footer {
     padding-top: 25px;
-    position: fixed;
+/*     position: fixed; */
     bottom: 0;
     width: 100%;
 }
@@ -134,9 +134,6 @@ body {
 }
 
 .animated {
-    background-image: url(/css/images/logo.png);
-    background-repeat: no-repeat;
-    background-position: left top;
     padding-top:95px;
     margin-bottom:60px;
     -webkit-animation-duration: 1s;
