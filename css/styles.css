@@ -45,22 +45,18 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-	/* footer */
 	.custom-footer {
-		padding-top: 25px;
 		position: fixed;
-		bottom: 0;
-		width: 100%;
 	}
 }
 
-@media screen and (min-width: 800px) {
-	/* footer */
-	.custom-footer {
-		padding-top: 25px;
-		bottom: 0;
-		width: 100%;
-	}
+
+/* footer */
+
+.custom-footer {
+	padding-top: 25px;
+	bottom: 0;
+	width: 100%;
 }
 
 
