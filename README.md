@@ -1,6 +1,11 @@
 # PORTFOLIO
 Portfolio Sederhana dengan menggunakan Bootstrap dan Ajax
 
+## Demo
+```
+https://fikrimaulana85.github.io/portfolio/
+```
+
 ## Installation
 ```
 git clone https://github.com/FikriMaulana85/portfolio.git
